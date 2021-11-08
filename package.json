@@ -10,5 +10,18 @@
   },
   "devDependencies": {
     "astro": "^0.20.12"
-  }
+  },
+  "description": "Just building a quick demo of Netlify forms",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMorgan99/mignight-computing-machine.git"
+  },
+  "keywords": [],
+  "author": "Tim Morgan <tmorgan99@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TMorgan99/mignight-computing-machine/issues"
+  },
+  "homepage": "https://github.com/TMorgan99/mignight-computing-machine#readme"
 }
