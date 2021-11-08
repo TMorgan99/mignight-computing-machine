@@ -57,3 +57,24 @@ This gets us to browse the repos, and check out the basic settings, then `[Deplo
 Build command => `npm run build`, which gets the script from `package.json`,
 which we see is `astro build`.
 This is what we see in `netlify.toml` so we should be good to go!
+
+## Deploy Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4dcf1798-1247-4749-a3bb-f959eda4543e/deploy-status)](https://app.netlify.com/sites/cranky-swanson-3bb12e/deploys)
+
+## Touch up README
+
+Not sure how the StackBlitz deploy button works, so just delete for now.
+
+## NetlifyForm
+
+Create the astro component, basically dropping the [sample code](https://docs.netlify.com/forms/setup/)
+
+run the dev locally. see what happens!
+
+```bash
+# should run this the first time, I guess.
+snowpack init
+# use Netlify CLI to s
+netlify dev
+```
