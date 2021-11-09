@@ -78,3 +78,13 @@ snowpack init
 # use Netlify CLI to s
 netlify dev
 ```
+
+## Retreval
+
+Netlify has given our form an 'id', which can be found on the `forms` tab of the site's dashboard.
+
+[This is the page url](https://app.netlify.com/sites/cranky-swanson-3bb12e/forms/6188bf5509e8a70008284359)
+
+Remember to visit this page to `[Download CSV]`and periodically `Delete submissions`.
+
+This downloads a file called `contact.csv`, and has the fields from your form, in addition to system fields "ip","user_agent","referrer","created_at"

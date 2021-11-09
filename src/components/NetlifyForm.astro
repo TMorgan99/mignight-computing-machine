@@ -2,11 +2,16 @@
 // This is the form itself.
 //  I put in the hidden field manually, I don't trust Netlify ?
 
+// [This is the page url fron the site's Dashboard.]
+// (https://app.netlify.com/sites/cranky-swanson-3bb12e/forms/6188bf5509e8a70008284359)
+
 ---
 
 <form action="/form-success/" name="contact" method="POST" netlify>
 <!-- put in the hidden field anyway! -->
-  <input type="hidden" name="form-name" value="contact">
+  <!-- <input type="hidden" name="form-name" value="contact"> 
+  turns out, it was OK without this.
+  -->
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
     <label>Your Email: <input type="email" name="email" /></label>
