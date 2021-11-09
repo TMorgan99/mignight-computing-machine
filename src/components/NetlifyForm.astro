@@ -1,22 +1,15 @@
 ---
 // This is the form itself.
+//  I put in the hidden field manually, I don't trust Netlify ?
 
 ---
 
-<form name="contact" method="POST" action="/form_success" data-netlify="true">
+<form action="/forn-success/" name="contact" method="POST" netlify>
+<!-- put in the hidden field anyway! -->
+  <input type="hidden" name="form-name" value="contact">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
     <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
